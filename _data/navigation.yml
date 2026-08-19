@@ -1,0 +1,9 @@
+- name: Docs
+  url: /docs/welcome/
+- name: Components
+  url: /components/welcome/
+- name: Forms
+  url: /forms/welcome/
+- name: GitHub
+  url: https://github.com/infinum/eightshift-docs
+  external: true

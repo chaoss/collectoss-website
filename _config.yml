@@ -1,3 +1,14 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+title: "CollectOSS" # the name of your site, e.g. ACME Corp.
+tagline: ""
+description: "A Python-based data collection and relational storage tool for Open Source Community Health data and CHAOSS metrics"
+
+author:
+  name: "CHAOSS Community Contributors"
+  url: https://chaoss.community
+
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

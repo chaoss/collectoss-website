@@ -188,14 +188,20 @@ Hero
   padding: 4rem 2rem;
   width: 70vw;
   margin: 0 auto;
+  flex-direction: column;
 }
 
-.hero>h1 {
+
+.hero > .chart {
+  max-width: 40vw;
+}
+
+.hero>strong {
   font-size: 32px;
 }
 
 @media screen and (min-width: 768px) {
-  .hero > h1 {
+  .hero > strong {
     font-size: 64px;
   }
 }

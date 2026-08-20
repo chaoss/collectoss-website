@@ -151,6 +151,28 @@ Layout
   }
 }
 
+/************
+Elements
+************/
+
+
+button {
+  align-items: center;
+  background-color: #d72638;
+  border: 1px solid #0000;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  justify-items: center;
+  margin: 10px 0;
+  padding: 1rem 2rem;
+  transition: border-color .25s;
+}
+
 /******************** 
     Utils 
  ********************/

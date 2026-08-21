@@ -173,6 +173,18 @@ button {
   transition: border-color .25s;
 }
 
+code {
+  display: block;
+  background-color: #262626;
+  color:#e5e7eb;
+  border-radius: 15px;
+  font-family: Red Hat Mono, monospace !important;
+  font-weight: 500;
+  padding: 1rem;
+  width: 100%;
+}
+
+
 /******************** 
     Utils 
  ********************/

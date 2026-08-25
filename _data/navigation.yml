@@ -1,9 +1,10 @@
+- name: Features
+  url: #features
 - name: Docs
-  url: /docs/welcome/
-- name: Components
-  url: /components/welcome/
-- name: Forms
-  url: /forms/welcome/
+  url: https://docs.collectoss.org
+  icon: fas fa-book
+  external: true
 - name: GitHub
-  url: https://github.com/infinum/eightshift-docs
+  url: https://github.com/chaoss/collectoss
+  icon: fab fa-github
   external: true

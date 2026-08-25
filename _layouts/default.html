@@ -1,47 +1,36 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: " en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-
   <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
   <noscript>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
   </noscript>
-
-  <title>{{ page.title }} - {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   {% seo %}
 </head>
 
 <body>
   {% include navbar.html %}
-  {{ content }}
-  <section id="footer" class="noPrint">
-    <hr>
-    <div class="sidebyside">
-      <p>
-        Made with <i class="fas fa-heart"></i>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer id="footer" class="noPrint">
+    <div class="container footer-content">
+      <p class="footer-copy">
+        Made with <i class="fas fa-heart text-red"></i> by the <strong>CollectOSS</strong> community.
       </p>
-  
-  
-      <div>
-        <ul>
-          <!-- <li><a href="">Privacy Policy</a></li> -->
-          <!-- <li><a href="/feed.xml">RSS Feed</a></li> -->
-        </ul>
-      </div>
-  
+      <ul class="footer-links">
+        <li><a href="https://docs.collectoss.org">Documentation</a></li>
+        <li><a href="https://github.com/collectoss">GitHub</a></li>
+      </ul>
     </div>
-    <div class="sidebyside">
-      <p>
-       
-      </p>
-    </div>
-  
-  </section>
+  </footer>
 </body>
 
 </html>

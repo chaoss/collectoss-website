@@ -1,0 +1,3 @@
+- name: CHAOSS
+  url: https://chaoss.community
+  external: true

@@ -26,10 +26,9 @@ layout: default
 		</a>
 	</div>
 
-	<div class="chart-wrapper">
-		<div style="width: 600px; height: 220px; background-color: gray;">
-			TODO: put 8Knot graph here somehow
-		</div>
+	<div class="chart-wrapper eightknot">
+		<div id="plot"></div>
+		Data Visualization provided by <a href="https://eightknot.osci.io">8Knot</a>
 	</div>
 </header>
 
@@ -71,3 +70,17 @@ layout: default
 		</a>
 	</div>
 </section>
+
+<script>
+
+	GRAPH = document.getElementById('plot');
+
+	plot_config = { showSendToCloud: false, responsive: true }
+
+	fetch("/assets/data/8knot.json")
+		.then((resp) => resp.json())
+		.then((plotstuff) => {
+
+			Plotly.newPlot(GRAPH, plotstuff.data, plotstuff.layout, plot_config);
+		})
+</script>

@@ -1,5 +1,5 @@
 - name: Features
-  url: #features
+  url: "#features"
 - name: Docs
   url: https://docs.collectoss.org
   icon: fas fa-book

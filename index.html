@@ -94,7 +94,7 @@ layout: default
 
 	plot_config = { showSendToCloud: false, responsive: true }
 
-	fetch("/assets/data/8knot.json")
+	fetch("{{site.baseurl}}/assets/data/8knot.json")
 		.then((resp) => resp.json())
 		.then((plotstuff) => {
 

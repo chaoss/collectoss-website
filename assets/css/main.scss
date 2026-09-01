@@ -5,12 +5,23 @@
 /* Core Variables */
 $primaryColor: #7c3aed;
 $primaryHover: #6d28d9;
+
+$primaryGradientTargetColor: #ec4899;
+$ctaGradientTargetColor: #4c1d95;
+
 $backgroundColor: #f9fafb;
 $cardBackground: #ffffff;
 $eightknotCardBackground: #292929;
 $textColor: #1f2937;
 $mutedColor: #4b5563;
 $borderColor: #e5e7eb;
+
+$chaossPurple: #c19ade;
+$chaossRed: #d50057;
+$chaossBlue: #009ade;
+$chaossGreen: #66c9ba;
+
+
 $fontFamily: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 
 *,
@@ -90,7 +101,7 @@ main {
 }
 
 .gradient-text {
-	background: linear-gradient(135deg, $primaryColor 0%, #ec4899 100%);
+	background: linear-gradient(135deg, $primaryColor 0%, $primaryGradientTargetColor 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -262,7 +273,7 @@ h1.hero-title .gradient-text {
 }
 
 .cta-card {
-	background: linear-gradient(135deg, $primaryColor 0%, #4c1d95 100%);
+	background: linear-gradient(135deg, $primaryColor 0%, $ctaGradientTargetColor 100%);
 	color: #ffffff;
 	padding: 3rem 2rem;
 	border-radius: 16px;

@@ -1,5 +1,5 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/collectoss-website" # the subpath of your site, e.g. /blog
 title: "CollectOSS" # the name of your site, e.g. ACME Corp.
 tagline: ""
 description: "A Python-based data collection and relational storage tool for Open Source Community Health data and CHAOSS metrics"

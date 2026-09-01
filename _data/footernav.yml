@@ -1,3 +1,6 @@
+- name: Website Source Code
+  url: https://github.com/chaoss/collectoss-website
+  external: true
 - name: CHAOSS
   url: https://chaoss.community
   external: true

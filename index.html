@@ -81,17 +81,19 @@ layout: default
 	</div>
 
 	<div class="faq-list">
-
+		{% for item in site.data.faq %}
 		<div class="faq-item">
 			<button class="faq-question" aria-expanded="false">
-				Sample Question?
+				{{ item.question }}
 				<span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
 			</button>
 			<div class="faq-answer">
-				<p>Sample Answer</p>
+				{% for p in item.answer %}
+				<p>{{p}}</p>
+				{% endfor %}
 			</div>
 		</div>
-
+		{% endfor %}
 	</div>
 </section>
 

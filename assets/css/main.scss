@@ -209,12 +209,14 @@ h1.hero-title .gradient-text {
 	}
 }
 
-.features-container {
-	display: flex;
-	flex-wrap: wrap;
+.features-grid {
+	display: grid;
+	grid-template-columns: 1fr;
 	gap: 1.5rem;
 
-	justify-content: center; /* space-between to keep the original grid appearance */
+	@media (min-width: 768px) {
+		grid-template-columns: repeat(3, 1fr);
+	}
 }
 
 .feature-card {
@@ -223,7 +225,7 @@ h1.hero-title .gradient-text {
 	padding: 2rem;
 	border-radius: 12px;
 	transition: transform 0.2s ease, box-shadow 0.2s ease;
-	flex-basis: 31%;
+
 	&:hover {
 		transform: translateY(-3px);
 		box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.08);

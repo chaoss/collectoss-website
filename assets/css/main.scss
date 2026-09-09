@@ -214,6 +214,10 @@ h1.hero-title .gradient-text {
 	grid-template-columns: 1fr;
 	gap: 1.5rem;
 
+	@media (min-width: 576px) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
 	@media (min-width: 768px) {
 		grid-template-columns: repeat(3, 1fr);
 	}

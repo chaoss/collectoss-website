@@ -93,6 +93,9 @@ layout: default
 				{% endfor %}
 			</div>
 		</div>
+		{% if item != site.data.faq.last %}
+		<hr>
+		{% endif %}
 		{% endfor %}
 	</div>
 </section>

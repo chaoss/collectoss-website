@@ -8,6 +8,9 @@ author:
   name: "CHAOSS Community Contributors"
   url: https://chaoss.community
 
+posthog:
+  tracking_id: phc_BLGEBSjVKV3KEGMuuUY6LrBtJG8h7jpJ3U8e7iRwbpvE
+
 
 plugins:
   - jekyll-seo-tag

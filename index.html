@@ -73,6 +73,30 @@ layout: default
 	</div>
 </section>
 
+<!-- FAQ Section -->
+<section id="faq" class="faq-section container">
+	<div class="section-header">
+		<h2>Frequently Asked Questions</h2>
+		<p>Everything you need to know about CollectOSS.</p>
+	</div>
+
+	<div class="faq-list">
+		{% for item in site.data.faq %}
+		<div class="faq-item">
+			<button class="faq-question" aria-expanded="false">
+				{{ item.question }}
+				<span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+			</button>
+			<div class="faq-answer">
+				{% for p in item.answer %}
+				<p>{{p}}</p>
+				{% endfor %}
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</section>
+
 <!-- Call to Action -->
 <section class="cta-section">
 	<div class="cta-card">
@@ -100,4 +124,24 @@ layout: default
 
 			Plotly.newPlot(GRAPH, plotstuff.data, plotstuff.layout, plot_config);
 		})
+
+	// FAQ accordion
+	document.querySelectorAll('.faq-question').forEach(function(btn) {
+		btn.addEventListener('click', function() {
+			var item = btn.closest('.faq-item');
+			var isOpen = btn.getAttribute('aria-expanded') === 'true';
+
+			// Close all
+			document.querySelectorAll('.faq-item').forEach(function(i) {
+				i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+				i.classList.remove('is-open');
+			});
+
+			// Toggle clicked
+			if (!isOpen) {
+				btn.setAttribute('aria-expanded', 'true');
+				item.classList.add('is-open');
+			}
+		});
+	});
 </script>

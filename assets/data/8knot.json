@@ -5688,6 +5688,10 @@
                     }
                 },
                 "legend": {
+                    "x": -10,
+                    "y": -10,
+                    "xanchor": "left",
+                    "yanchor": "bottom",
                     "font": {
                         "color": "white"
                     },

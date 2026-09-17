@@ -12,8 +12,8 @@
 
 - question: Why was there a fork?
   answer:
-    - 'When a project representing a core function of the community suddenly moves, it can leave behind a vaccum. The impacts of such a change sends shockwaves through a community: Community data resources can be suddenly unavailable; contributors can feel destabilized and disengage from the project; additional incident response work causes delays and diverts maintainer time away from helping contributors who want to make a difference.'
-    - Creating a hard fork was not an easy choice, but in the aftermath of an unprecedented disruption, it became a necessary step to return a sense of stability to the CHAOSS community. CollectOSS represents an opportunity to strengthen the pillars upon which we stand, shift our balance, and ultimately provide the community with a stable platform to continue the valuable metrics work that was already being undertaken within CHAOSS.
+    - 'When a project representing a core function of the community suddenly moves, it can leave behind a vaccum. The impacts of such a change sends shockwaves through a community: Community data resources suddenly become unavailable; contributors can feel destabilized and disengage from the project; additional incident response work causes delays and splits maintainer time.'
+    - Creating a hard fork was not an easy choice, but in the vaccum of disruption, it became a necessary step to return a sense of stability to the CHAOSS community. CollectOSS represents an opportunity to strengthen the core values upon which we stand, shift our balance, and put in the work to rebuild the community with a more stable foundation so we can continue the valuable metrics work within CHAOSS.
     - For more details, see <a href="https://www.chaoss.community/public-update-on-recent-events-at-chaoss/">this announcement</a> from the CHAOSS board.
 
 - question: What is the mission of the CollectOSS project?

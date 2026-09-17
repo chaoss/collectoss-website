@@ -223,7 +223,6 @@ Hero
   // color: var(--ifm-hero-text-color);
   display: flex;
   padding: 4rem 2rem;
-  width: 70vw;
   margin: 0 auto;
   flex-direction: column;
 }
@@ -240,6 +239,10 @@ Hero
 @media screen and (min-width: 768px) {
   .hero > strong {
     font-size: 64px;
+  }
+
+  .hero {
+    width: 70vw;
   }
 }
 

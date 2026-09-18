@@ -3,50 +3,6 @@
 @import "base";
 
 
-.hero-bubble {
-	display: inline-flex;
-	align-items: center;
-	gap: 0.5rem;
-	background-color: #f3e8ff;
-	color: $primaryColor;
-	padding: 0.35rem 0.85rem;
-	border-radius: 9999px;
-	font-size: 0.875rem;
-	font-weight: 600;
-	margin-bottom: 1.5rem;
-}
-
-.hero-title {
-	text-align: left;
-	font-size: 2.25rem;
-	font-weight: 800;
-	line-height: 1.25;
-	letter-spacing: -0.02em;
-	margin: 0 0 1rem;
-
-	@media (min-width: 768px) {
-		font-size: 3.5rem;
-	}
-}
-
-.gradient-text {
-	background: linear-gradient(135deg, $primaryColor 0%, #ec4899 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-h1.hero-title .gradient-text {
-	text-align: right;
-	display: block;
-}
-
-
-.hero-subtitle {
-	font-size: 1.125rem;
-	color: $mutedColor;
-	max-width: 650px;
-	margin: 0 0 2rem;
-}
 
 /* Buttons */
 .buttonContainer {

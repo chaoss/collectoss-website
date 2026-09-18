@@ -277,7 +277,6 @@ Hero
   margin: 0 auto;
   flex-direction: column;
   max-width: 900px;
-  text-align: center;
 }
 
 .hero-bubble {
@@ -323,9 +322,7 @@ h1.hero-title .gradient-text {
   margin: 0 0 2rem;
 }
 
-.hero > .chart {
-  max-width: 40vw;
-}
+
 
 .hero>strong {
   font-size: 32px;
@@ -351,6 +348,8 @@ h1.hero-title .gradient-text {
   border-radius: 12px;
   padding: 1.5rem;
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+  margin: 0 auto;
+  text-align: center;
 }
 
 .chart-wrapper.eightknot {
@@ -372,6 +371,12 @@ h1.hero-title .gradient-text {
 
 .eightknot a:active {
   color: #BB86FC
+}
+
+
+
+section>.chart {
+  max-width: 40vw;
 }
 
 .chart {

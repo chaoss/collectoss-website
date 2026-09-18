@@ -127,13 +127,13 @@ layout: default
 		})
 
 	// FAQ accordion
-	document.querySelectorAll('.faq-question').forEach(function(btn) {
-		btn.addEventListener('click', function() {
+	document.querySelectorAll('.faq-question').forEach(function (btn) {
+		btn.addEventListener('click', function () {
 			var item = btn.closest('.faq-item');
 			var isOpen = btn.getAttribute('aria-expanded') === 'true';
 
 			// Close all
-			document.querySelectorAll('.faq-item').forEach(function(i) {
+			document.querySelectorAll('.faq-item').forEach(function (i) {
 				i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
 				i.classList.remove('is-open');
 			});

@@ -116,8 +116,7 @@ layout: default
 	</div>
 </section>
 
-<script>
-
+<script defer>
 	GRAPH = document.getElementById('plot');
 
 	plot_config = { showSendToCloud: false, responsive: true }
@@ -141,6 +140,9 @@ layout: default
 		.then(([plotstuff, Plotly]) => {
 			Plotly.newPlot(GRAPH, plotstuff.data, plotstuff.layout, plot_config);
 		})
+
+
+
 
 	// FAQ accordion
 	document.querySelectorAll('.faq-question').forEach(function (btn) {

@@ -146,6 +146,15 @@ header .nav-link {
 Layout
 ********/
 
+section {
+  // this is the height of the navbar
+  // it is here so that clicking on nav items that utilize
+  // fragment scroll to a section dont have their titles
+  // hidden by the navbar
+  scroll-margin-top: 80px;
+}
+
+
 @media screen and (min-width: 576px) {
 
   section#footer {

@@ -201,6 +201,16 @@ button {
   font-family: inherit;
 }
 
+
+.buttonContainer {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 3rem;
+}
+
+
 code {
   display: block;
   background-color: #262626;

@@ -264,29 +264,6 @@ code {
   width: 100%;
 }
 
-
-/******************** 
-    Utils 
- ********************/
-
-.sidebyside {
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-}
-
-.sidebyside>* {
-  flex-grow: 1;
-}
-
-@media screen and (min-width: 576px) {
-  .sidebyside {
-    flex-direction: row;
-    display: flex;
-    align-items: center;
-  }
-}
-
 /*****
 Header
 *****/

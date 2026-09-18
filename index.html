@@ -119,10 +119,23 @@ layout: default
 
 	plot_config = { showSendToCloud: false, responsive: true }
 
-	fetch("{{site.baseurl}}/assets/data/8knot.json")
-		.then((resp) => resp.json())
-		.then((plotstuff) => {
+	const dataPromise = fetch("{{site.baseurl}}/assets/data/8knot.json").then(res => res.json());
 
+	// 2. Wrap Plotly availability in a Promise
+	const plotlyPromise = new Promise((resolve, reject) => {
+		if (window.Plotly) return resolve(window.Plotly);
+
+		const script = document.querySelector('script[src*="plotly"]');
+		if (script) {
+			script.addEventListener('load', () => resolve(window.Plotly));
+			script.addEventListener('error', reject);
+		} else {
+			reject(new Error('Plotly script tag not found'));
+		}
+	});
+
+	Promise.all([dataPromise, plotlyPromise])
+		.then(([plotstuff, Plotly]) => {
 			Plotly.newPlot(GRAPH, plotstuff.data, plotstuff.layout, plot_config);
 		})
 

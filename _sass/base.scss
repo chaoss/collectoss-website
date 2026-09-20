@@ -7,7 +7,8 @@ $chaossBlue: #009ade;
 $chaossGreen: #66c9ba;
 
 $primaryColor: #aa42cd;
-$primaryHover: hsl(from $primaryColor h calc(s * 0.9) calc(l * 0.9));
+$primaryHoverQ: 'hsl(from #aa42cd h calc(s * 0.9) calc(l * 0.9))';
+$primaryHover: unquote($primaryHoverQ);
 $backgroundColor: #f9fafb;
 $cardBackground: #ffffff;
 $eightknotCardBackground: #292929;

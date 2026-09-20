@@ -12,6 +12,13 @@ author:
 posthog:
   tracking_id: phc_BLGEBSjVKV3KEGMuuUY6LrBtJG8h7jpJ3U8e7iRwbpvE
 
+# use front matter defaults to set an image
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/social-card.png
+
 
 plugins:
   - jekyll-seo-tag

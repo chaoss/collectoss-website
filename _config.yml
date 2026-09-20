@@ -1,7 +1,7 @@
 url: "https://www.collectoss.org" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "CollectOSS" # the name of your site, e.g. ACME Corp.
-tagline: "The engine of open source community insights at scale"
+tagline: "Gathering the pulse of Open Source collaborator health at scale"
 description: "Study the health of open source at scale. CollectOSS is the engine of your open source community metrics pipeline. A community-backed Augur fork that is built on 10 years of CHAOSS metrics, contributor analysis, and OSPO-scale insights into the communities whose software you rely on."
 
 

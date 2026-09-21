@@ -72,7 +72,9 @@
       <p class="footer-copy">
         Made with <i class="fas fa-heart text-red"></i> by the <strong>CollectOSS</strong> community.
       </p>
-      {% include navitems.html items=site.data.footernav class="footer-links" %}
+      <nav aria-label="Footer navigation">
+        {% include navitems.html items=site.data.footernav class="footer-links" link_class="footer-link" %}
+      </nav>
     </div>
   </footer>
 </body>

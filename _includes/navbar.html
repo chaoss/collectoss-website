@@ -10,7 +10,9 @@
 			<span class="hamburger-bar"></span>
 		</button>
 
-		{% include navitems.html items=include.items %}
+		<nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+			{% include navitems.html items=include.items %}
+		</nav>
 	</div>
 </header>
 

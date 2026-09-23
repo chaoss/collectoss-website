@@ -43,36 +43,14 @@ layout: default
 	</div>
 
 	<div class="features-grid">
+		{% for item in site.data.features %}
 
 		<div class="feature-card">
-			<div class="feature-icon"><i class="fas fa-vial"></i></div>
-			<h3>Real Experience</h3>
-			<p>CollectOSS builds on top of <a href="https://github.com/chaoss/CollectOSS/graphs/contributors?all=1">10 years of work</a> from the Augur project to bring you the best in open source community insights.</p>
+			<div class="feature-icon"><i class="{{ item.icon }}"></i></div>
+			<h3>{{ item.title }}</h3>
+			<p>{{ item.body }}</p>
 		</div>
-
-		<div class="feature-card">
-			<div class="feature-icon"><i class="fas fa-lock-open"></i></div>
-			<h3>Licensed for all</h3>
-			<p>CollectOSS is maintained under the <a href="https://github.com/chaoss/CollectOSS/blob/main/LICENSE">MIT license</a> because the best part of having a great recipe is being able to share it.</p>
-		</div>
-
-		<div class="feature-card">
-			<div class="feature-icon"><i class="fas fa-balance-scale"></i></div>
-			<h3>Open Governance</h3>
-			<p>Our welcoming community is backed by open, transparent <a href="https://github.com/chaoss/CollectOSS/blob/main/GOVERNANCE.md">governance</a> that gives everyone a fair shot.</p>
-		</div>
-
-		<div class="feature-card">
-			<div class="feature-icon"><i class="fab fa-docker"></i></div>
-			<h3>Container-First</h3>
-			<p>Deploy on common infrastructure easily with container images ready to go.</p>
-		</div>
-		
-		<!-- <div class="feature-card">
-			<div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
-			<h3>Project Health Scores</h3>
-			<p>Track maintenance sustainability, response times, and documentation coverage with automated health checks.</p>
-		</div> -->
+		{% endfor %}
 	</div>
 </section>
 

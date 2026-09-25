@@ -1,0 +1,19 @@
+- icon: fas fa-vial
+  title: Real Experience
+  body: CollectOSS builds on top of <a href="https://github.com/chaoss/CollectOSS/graphs/contributors?all=1">10 years of work</a> from the Augur project to bring you the best in open source community insights.
+
+- icon: fas fa-lock-open
+  title: Licensed for all
+  body: CollectOSS is maintained under the <a href="https://github.com/chaoss/CollectOSS/blob/main/LICENSE">MIT license</a> because the best part of having a great recipe is being able to share it.
+
+- icon: fas fa-balance-scale
+  title: Open Governance
+  body: Our welcoming community is backed by open, transparent <a href="https://github.com/chaoss/CollectOSS/blob/main/GOVERNANCE.md">governance</a> that gives everyone a fair shot.
+
+- icon: fab fa-docker
+  title: Container-First
+  body: Deploy on common infrastructure easily with container images ready to go.
+
+- icon: fas fa-cubes
+  title: A Pluggable Foundation
+  body: CollectOSS is part of your stack, not your entire stack. You can combine analysis scripts and dashboard tools from the existing ecosystem or build something that fits your unique needs.

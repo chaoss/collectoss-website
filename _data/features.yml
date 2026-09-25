@@ -17,3 +17,7 @@
 - icon: fas fa-cubes
   title: A Pluggable Foundation
   body: CollectOSS is part of your stack, not your entire stack. You can combine analysis scripts and dashboard tools from the existing ecosystem or build something that fits your unique needs.
+
+- icon: fas fa-handshake
+  title: Vendor-Neutral
+  body: Because CollectOSS is part of the Linux Foundation through <a href="https://chaoss.community">CHAOSS</a>, even corporate competitors are welcome, helping reduce single-vendor lock-in.

@@ -27,8 +27,8 @@
     -  'CollectOSS has introduced a governance process that is based on a template from the CNCF. This policy is available to anyone in the repository <a href="https://github.com/chaoss/CollectOSS/blob/main/GOVERNANCE.md">GOVERNANCE.md</a> and codifies proven community-oriented procedures and policies for key functions such as: maintainer addition, maintainer removal, voting, governance changes, and more. Feedback is always welcome and changes to this document are possible with a ⅔ vote of the maintainers.'
 
 
-- question: How can I get started or help out?
+- question: How can I get started, find support, or help out?
   answer:
     - Anyone is welcome to utilize the <a href="https://docs.collectoss.org">official docs</a> and <a href="https://github.com/chaoss/CollectOSS/blob/main/README.md">README</a> to get started with using CollectOSS.
-    - If you would like to join the community, we welcome you to join the <a href="https://chaoss.community/kb-getting-started/">CHAOSS Slack</a> in the <b style="white-space:nowrap;">#wg-collectoss-8knot</b> channel. This is where you can chat with other contributors and maintainers to get help or decide if this is the right community for you!
+    - We also invite you to join the <a href="https://chaoss.community/kb-getting-started/">CHAOSS Community Slack</a> in the <b style="white-space:nowrap;">#wg-collectoss-8knot</b> channel. This is where you can chat with other contributors and maintainers to get help or evaluate whether this is the right community for you!
     - To make your first contributions, take a look at the <a href="https://github.com/chaoss/CollectOSS/blob/main/CONTRIBUTING.md">CONTRIBUTING</a> file to learn how to make your first contribution. We especially encourage you to check out any issues with labels like "good first issues", "help wanted", or "first timers only"

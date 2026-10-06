@@ -295,12 +295,11 @@ Hero
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: #f3e8ff;
   color: $primaryColor;
-  padding: 0.35rem 0.85rem;
-  border-radius: 9999px;
   font-size: 0.875rem;
   font-weight: 600;
+  margin: 0.5em;
+  margin-bottom: 2em;
 }
 
 .hero-title {

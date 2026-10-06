@@ -12,7 +12,7 @@
 
 - icon: fab fa-docker
   title: Container-First
-  body: Deploy on common infrastructure easily with container images ready to go.
+  body: Deploy on common infrastructure easily with container images ready to go with a single docker compose command.
 
 - icon: fas fa-cubes
   title: A Pluggable Foundation

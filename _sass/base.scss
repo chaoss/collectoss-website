@@ -435,11 +435,6 @@ section>.chart {
   border-radius: 12px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 
-  &:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.08);
-  }
-
   .feature-icon {
     width: 48px;
     height: 48px;

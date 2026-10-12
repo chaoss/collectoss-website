@@ -1,8 +1,8 @@
 url: "https://www.collectoss.org" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "CollectOSS" # the name of your site, e.g. ACME Corp.
-tagline: "Gathering the pulse of Open Source collaborator health at scale"
-description: "Study the health of open source at scale. CollectOSS is the engine of your open source community metrics pipeline. A community-backed Augur fork that is built on 10 years of CHAOSS metrics, contributor analysis, and OSPO-scale insights into the communities whose software you rely on."
+tagline: "Open Source Community Health & Contributor Metrics"
+description: "Self-host open source community analytics at OSPO scale. CollectOSS is a community-built engine for CHAOSS metrics and contributor health insights."
 
 posthog:
   tracking_id: phc_BLGEBSjVKV3KEGMuuUY6LrBtJG8h7jpJ3U8e7iRwbpvE

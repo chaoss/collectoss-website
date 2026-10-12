@@ -15,6 +15,44 @@
   <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}" sizes="32x32">
   {% seo %}
 
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["SoftwareApplication", "Project"],
+        "@id": "https://collectoss.org/#software",
+        "name": "CollectOSS",
+        "url": "https://collectoss.org",
+        "description": "An open source tool for collecting and analyzing open source community health, metrics, and ecosystem data.",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Cross-platform",
+        "license": "https://opensource.org/licenses/MIT",
+        "parentOrganization": {
+          "@id": "https://chaoss.community/#organization"
+        },
+        "sameAs": [
+          "https://github.com/chaoss/CollectOSS",
+          "https://docs.collectoss.org"
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://chaoss.community/#organization",
+        "name": "CHAOSS",
+        "url": "https://chaoss.community",
+        "logo": "https://www.chaoss.community/wp-content/uploads/2022/08/chaoss-white-2.png",
+        "sameAs": [
+          "https://github.com/chaoss",
+          "https://twitter.com/chaossproj",
+          "https://www.linkedin.com/company/chaoss",
+          "https://www.youtube.com/c/CHAOSStube"
+        ]
+      }
+    ]
+  }
+  </script>
+
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/fontawesome.min.js"
     integrity="sha512-ywaT8M9b+VnJ+jNG14UgRaKg+gf8yVBisU2ce+YJrlWwZa9BaZAE5GK5Yd7CBcP6UXoAnziRQl40/u/qwVZi4Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>

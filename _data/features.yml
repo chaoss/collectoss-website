@@ -1,18 +1,18 @@
-- icon: fas fa-vial
+- icon: fas fa-people-carry-box
   title: Real Experience
-  body: CollectOSS builds on top of <a href="https://github.com/chaoss/CollectOSS/graphs/contributors?all=1">10 years of work</a> from the Augur project to bring you the best in open source community insights.
+  body: The deep experience of our passionate CollectOSS community helps us continue <a href="https://github.com/chaoss/CollectOSS/graphs/contributors?all=1">10 years</a> of industry-leading health metrics work without losing the human touch.
 
-- icon: fas fa-lock-open
-  title: Licensed for all
-  body: CollectOSS is maintained under the <a href="https://github.com/chaoss/CollectOSS/blob/main/LICENSE">MIT license</a> because the best part of having a great recipe is being able to share it.
+- icon: fas fa-hand-holding-heart
+  title: Freely licensed
+  body: CollectOSS is maintained under the <a href="https://github.com/chaoss/CollectOSS/blob/main/LICENSE">MIT license</a>. You won't find free samples or sign-up walls here because the best part of having a great recipe is sharing it.
 
 - icon: fas fa-balance-scale
   title: Open Governance
-  body: Our welcoming community is backed by open, transparent <a href="https://github.com/chaoss/CollectOSS/blob/main/GOVERNANCE.md">governance</a> that gives everyone a fair shot.
+  body: Our welcoming community is backed by open, transparent <a href="https://github.com/chaoss/CollectOSS/blob/main/GOVERNANCE.md">governance</a> which works with our <a href="https://github.com/chaoss/CollectOSS/blob/main/CONTRIBUTING.md">contribution guidelines</a> to give everyone a fair shot.
 
 - icon: fab fa-docker
   title: Container-First
-  body: Deploy on common infrastructure easily with container images ready to go with a single docker compose command.
+  body: Deploy CollectOSS on common infrastructure easily. We ship container images that can be run in either docker or podman and can be run from a single compose file.
 
 - icon: fas fa-cubes
   title: A Pluggable Foundation

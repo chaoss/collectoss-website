@@ -32,3 +32,11 @@
     - Anyone is welcome to utilize the <a href="https://docs.collectoss.org">official docs</a> and <a href="https://github.com/chaoss/CollectOSS/blob/main/README.md">README</a> to get started with using CollectOSS.
     - We also invite you to join the <a href="https://chaoss.community/kb-getting-started/">CHAOSS Community Slack</a> in the <b style="white-space:nowrap;">#wg-collectoss-8knot</b> channel. This is where you can chat with other contributors and maintainers to get help or evaluate whether this is the right community for you!
     - To make your first contributions, take a look at the <a href="https://github.com/chaoss/CollectOSS/blob/main/CONTRIBUTING.md">CONTRIBUTING</a> file to learn how to make your first contribution. We especially encourage you to check out any issues with labels like "good first issues", "help wanted", or "first timers only"
+
+- question: Who owns the trademark on CollectOSS?
+  answer:
+    - CollectOSS is a trademark of the Linux Foundation®. The Linux Foundation® has registered trademarks and uses trademarks.
+    - For more information, including terms of use, privacy policy, and trademark
+      usage, please see the Linux Foundation pages on <a href="https://www.linuxfoundation.org/legal/policies">Policies</a>, <a
+      href="https://www.linuxfoundation.org/trademark-usage">Trademark Usage</a>, and their <a
+      href="http://www.linuxfoundation.org/privacy">Privacy Policy</a>
